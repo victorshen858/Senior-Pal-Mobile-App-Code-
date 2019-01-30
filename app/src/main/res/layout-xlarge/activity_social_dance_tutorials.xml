@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@drawable/dance_background">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Social Dance Tutorials"
+        android:id="@+id/title_dance"
+        android:background="@drawable/textborder3"
+        android:padding="2dp"
+        android:textSize="55sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/alarmprompt"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_Dance"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="Click Here to Learn This Dance!"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/textborder"
+        android:padding="3dp"
+        android:textSize="25sp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/spinnerOfDance"
+        android:spinnerMode="dialog"
+        android:textSize="25sp"
+        android:padding="5dp"
+        android:background="@drawable/textborder6"
+        android:layout_above="@+id/btn_Dance"
+        android:layout_alignLeft="@+id/btn_Dance"
+        android:layout_alignStart="@+id/btn_Dance"
+        android:layout_alignRight="@+id/btn_Dance"
+        android:layout_alignEnd="@+id/btn_Dance" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pick a Dance to Learn:"
+        android:padding="5dp"
+        android:id="@+id/textView2"
+        android:background="@drawable/textborder2"
+        android:textColor="@color/colorBlack"
+        android:textSize="33sp"
+        android:layout_above="@+id/spinnerOfDance"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

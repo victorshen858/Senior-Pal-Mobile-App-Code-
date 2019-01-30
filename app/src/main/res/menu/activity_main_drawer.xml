@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/emergency_button"
+            android:icon="@drawable/bulletpoint"
+            android:title="Emergency Button" />
+        <item
+            android:id="@+id/bath_sauna_timer"
+            android:icon="@drawable/bulletpoint"
+            android:title="Bath and Sauna Timer" />
+        <item
+            android:id="@+id/social_dance_tutorials"
+            android:icon="@drawable/bulletpoint"
+            android:title="Social Dance Tutorials" />
+        <item
+            android:id="@+id/symptom_checker"
+            android:icon="@drawable/bulletpoint"
+            android:title="Symptom Checker" />
+        <item
+            android:id="@+id/food_list"
+            android:icon="@drawable/bulletpoint"
+            android:title="Healthy Foods to Eat" />
+        <item
+            android:id="@+id/what_to_do_list"
+            android:icon="@drawable/bulletpoint"
+            android:title="What to Do List" />
+        <item
+            android:id="@+id/vision_and_hearing_tests"
+            android:icon="@drawable/bulletpoint"
+            android:title="Vision and Hearing Tests" />
+        <item
+            android:id="@+id/nap_playlist"
+            android:icon="@drawable/bulletpoint"
+            android:title="Meditation and Nap Time" />
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/ic_menu_send"
+            android:title="Settings" />
+    </group>
+
+</menu>

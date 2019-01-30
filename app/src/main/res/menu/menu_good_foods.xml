@@ -1,0 +1,66 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".GoodFoods">
+    <item
+        android:id="@+id/eyes"
+        android:orderInCategory="100"
+        android:title="Eyes"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/heart"
+        android:orderInCategory="100"
+        android:title="Heart"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/brain"
+        android:orderInCategory="100"
+        android:title="Brain"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/skin"
+        android:orderInCategory="100"
+        android:title="Skin"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/stomach"
+        android:orderInCategory="100"
+        android:title="Stomach"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/kidney"
+        android:orderInCategory="100"
+        android:title="Kidney"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/liver"
+        android:orderInCategory="100"
+        android:title="Liver"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/lungs"
+        android:orderInCategory="100"
+        android:title="Lungs"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/bladder"
+        android:orderInCategory="100"
+        android:title="Bladder"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/pancreas"
+        android:orderInCategory="100"
+        android:title="Pancreas"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/ears"
+        android:orderInCategory="100"
+        android:title="Ears"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/thyroid"
+        android:orderInCategory="100"
+        android:title="Thyroid"
+        app:showAsAction="always" />
+
+</menu>

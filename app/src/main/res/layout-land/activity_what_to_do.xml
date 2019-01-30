@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".WhatToDo">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Back"
+        android:id="@+id/back_button"
+        style="@style/CustomStyleButton"
+        android:layout_above="@+id/space1"
+        android:layout_alignRight="@+id/mylist"
+        android:layout_alignEnd="@+id/mylist" />
+
+    <TextView android:id="@+id/hello_world"
+        android:textSize="35sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="What To Do List: "
+        android:textColor="@color/colorBlack"
+        android:textStyle="bold"
+        />
+
+    //Space for layout to look nicer
+    <Space
+        android:id="@+id/space1"
+        android:layout_width="1dp"
+        android:layout_height="15dp"
+        android:layout_below="@id/hello_world" />
+
+    <TextView android:id="@+id/to_do_list_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/space1"
+        android:textColor="@color/colorBlack"
+        android:text="Instructions:         \n--To add an task, type it on the bottom line and press the &apos;ADD ITEM&apos; button.         \n--To mark a task as done, simply click on it (reclick to undo change).         \n--To delete a specific task press the colored item for at least 3 seconds;         \n--To delete all done tasks press &apos;DELETE DONE&apos;.         "
+        />
+
+    <Space
+        android:id="@+id/space2"
+        android:layout_width="1dp"
+        android:layout_height="30dp" />
+
+    <ListView android:id="@+id/mylist"
+        android:listSelector="#fffa77"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/to_do_list_text" />
+
+    <Button android:id="@+id/clear"
+        android:layout_width="wrap_content"
+        android:text="Delete Done"
+        android:onClick="clearEdit"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mylist"
+        android:layout_alignLeft="@+id/add"
+        android:layout_alignStart="@+id/add" />
+
+    <Button android:id="@+id/add"
+        android:layout_below="@id/clear"
+        android:text="Add Item"
+        android:layout_width="wrap_content"
+        android:onClick="addElem"
+        android:layout_height="wrap_content" />
+
+
+    <EditText android:id="@+id/input"
+        android:layout_below="@id/clear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/add"
+        android:layout_toRightOf="@+id/add"
+        android:layout_toEndOf="@+id/add" />
+
+</RelativeLayout>
